@@ -93,6 +93,10 @@ public class medium extends AppCompatActivity {
                 result += 1;
                 return;
             }
+            if(result==89){
+                result+=2;
+                return;
+            }
 
 
         } else if (90 <= result && result <= 99) {
